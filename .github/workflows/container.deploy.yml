@@ -5,8 +5,8 @@ on:
     branches: main
 
 env:
-  AZURE_APP_NAME: core-runtime
-  IMAGE_NAME: core-runtime:latest
+  AZURE_APP_NAME: fathym-core-runtime
+  IMAGE_NAME: fathym-core-runtime:latest
   ACR_REGISTRY: ${{ secrets.ACR_REGISTRY }}
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
