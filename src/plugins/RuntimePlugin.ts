@@ -34,11 +34,14 @@ export default class RuntimePlugin implements EaCRuntimePlugin {
                 Hostname: 'host.docker.internal',
                 Port: config.Servers![0].port || 8000,
               },
+              'www.fathym.com': {
+                Hostname: 'www.fathym.com',
+              },
               'www2.fathym.com': {
                 Hostname: 'www2.fathym.com',
               },
-              'fathym-core-runtime-czffe2d8a9agetfs.westus2-01.azurewebsites.net': {
-                Hostname: 'fathym-core-runtime-czffe2d8a9agetfs.westus2-01.azurewebsites.net',
+              'fathym-core-runtime.azurewebsites.net': {
+                Hostname: 'fathym-core-runtime.azurewebsites.net',
               },
             },
             ModifierResolvers: {},
